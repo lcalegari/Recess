@@ -4,18 +4,39 @@
 //
 //  Created by Lisa Calegari on 5/20/22.
 //
-
+import UIKit
 import SwiftUI
+import Firebase
+//import FirebaseCore
+//import FirebaseFirestore
+//import FirebaseAuth
+//import GoogleSignIn
+//import GoogleSignInSwift
+
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: AuthenticationViewModel
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ///Do we link initial view like: InitialView() or just have code here?
+        
+//.onTapGesture {
+        switch viewModel.state {
+            case .initialV: InitialView()
+            case .signedIn: HomeView() //HomeView()
+            case .signedOut: LoginView()
+            case .newProf: ProfCreatorView()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+ static var previews: some View {
+     ContentView()
+ }
 }
+
+
+
+
+
