@@ -24,7 +24,8 @@ struct ContentView: View {
         switch viewModel.state {
             case .initialV: InitialView()
             case .signedIn: HomeView() //HomeView()
-            case .signedOut: LoginView()
+            case .signedOut: Page2()
+            case .page2: OnboardingView()
             case .newProf: ProfCreatorView()
         }
     }
