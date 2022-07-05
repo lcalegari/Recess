@@ -195,20 +195,20 @@ class OnboardingViewController: UIViewController {
 
 
         // This is recess.
-        b = UILabel()
-        b.frame = CGRect(x: 0, y: 0, width: 168.74, height: 26)
-        b.backgroundColor = .white
-        b.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
-        b.font = UIFont(name: "LexendDeca-SemiBold", size: 24)
+        var r = UILabel()
+        r.frame = CGRect(x: 0, y: 0, width: 168.74, height: 26)
+        r.backgroundColor = .white
+        r.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+        r.font = UIFont(name: "LexendDeca-SemiBold", size: 24)
         // Line height: 30 pt
-        b.text = "This is recess."
+        r.text = "This is recess."
         parent = self.view!
-        parent.addSubview(b)
-        b.translatesAutoresizingMaskIntoConstraints = false
-        b.widthAnchor.constraint(equalToConstant: 168.74).isActive = true
-        b.heightAnchor.constraint(equalToConstant: 26).isActive = true
-        b.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 24).isActive = true
-        b.topAnchor.constraint(equalTo: parent.topAnchor, constant: 66.59).isActive = true
+        parent.addSubview(r)
+        r.translatesAutoresizingMaskIntoConstraints = false
+        r.widthAnchor.constraint(equalToConstant: 168.74).isActive = true
+        r.heightAnchor.constraint(equalToConstant: 26).isActive = true
+        r.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 24).isActive = true
+        r.topAnchor.constraint(equalTo: parent.topAnchor, constant: 66.59).isActive = true
 
         
         // image 4

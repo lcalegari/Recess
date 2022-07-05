@@ -187,9 +187,15 @@
 			children = (
 				AA205B4328716E56008F5605 /* OnboardingViewController.swift */,
 				AA205B452871719E008F5605 /* OnboarrdingView.swift */,
-				AA5AA3A628718F4600D9248C /* Page2.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AAA52ED22874D88D00602C9A /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 		C6A1C92228383DBF001D0BBB = {
@@ -234,6 +240,8 @@
 				C6295BC8284422B900739A15 /* HomeView.swift */,
 				C69B1103284432D800AEEF29 /* ProfCreatorView.swift */,
 				C689BA2B284C35DB00615D63 /* InitialView.swift */,
+				AA5AA3A628718F4600D9248C /* Page2.swift */,
+				AAA52ED22874D88D00602C9A /* New Group1 */,
 				AA205B4228716E24008F5605 /* New Group */,
 			);
 			path = Recess;

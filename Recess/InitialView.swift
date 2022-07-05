@@ -22,10 +22,11 @@ struct InitialView: View {
            }
     }
 }
-
+/*
 struct InitialView_Previews: PreviewProvider {
     static var previews: some View {
         InitialView()
     }
 }
+ */
 
