@@ -6,10 +6,10 @@ target 'Recess' do
   use_frameworks!
   # Pods for Recess
   pod 'ObjectBox'
-  #pod 'FirebaseAuth'
-  #pod 'GoogleSignIn'
-  #pod 'GoogleSignInSwiftSupport'
-  #pod 'GoogleSignInSwift'
+  pod 'FirebaseAuth'
+  pod 'GoogleSignIn'
+  pod 'GoogleSignInSwiftSupport'
+  pod 'GoogleSignInSwift'
 
   target 'RecessTests' do
     inherit! :search_paths
