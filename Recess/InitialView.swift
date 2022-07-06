@@ -14,17 +14,19 @@ struct InitialView: View {
         VStack {
             Image("arrows")
             Image("recess.")
-        }.background(Color.init(red: 209, green: 207, blue: 199))
         }
-            .onTapGesture {
-                viewModel.openApp()
-                    }
+        .background(Color.init(red: 209, green: 207, blue: 199))
+        }
+           .onTapGesture {
+               viewModel.openApp()
+           }
     }
 }
-
+/*
 struct InitialView_Previews: PreviewProvider {
     static var previews: some View {
         InitialView()
     }
 }
+ */
 

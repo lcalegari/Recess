@@ -24,19 +24,20 @@ struct ContentView: View {
         switch viewModel.state {
             case .initialV: InitialView()
             case .signedIn: HomeView() //HomeView()
-            case .signedOut: LoginView()
+            case .signedOut: OnboardingViews()
+            case .page2: LoginView()
             case .newProf: ProfCreatorView()
         }
     }
 }
-
+/*
 struct ContentView_Previews: PreviewProvider {
  static var previews: some View {
      ContentView()
  }
 }
 
-
+*/
 
 
 

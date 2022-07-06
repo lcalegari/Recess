@@ -16,6 +16,7 @@ class AuthenticationViewModel: ObservableObject {
     enum SignInState {
         case signedIn
         case newProf
+        case page2
         case signedOut
         case initialV
     }

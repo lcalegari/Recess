@@ -10,6 +10,11 @@
 		193D6D35DC09C0287B122467 /* EntityInfo-Recess.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6DCD40DABE983B2D73EB3 /* EntityInfo-Recess.generated.swift */; };
 		199C059A6497FDC3F5F1A96D /* Pods_RecessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D5046B12D1D552868765AB /* Pods_RecessTests.framework */; };
 		A2078F1833B0AF9A28200587 /* Pods_Recess_RecessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED6FC6751614E92F1313DF6 /* Pods_Recess_RecessUITests.framework */; };
+		AA205B4428716E56008F5605 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA205B4328716E56008F5605 /* OnboardingViewController.swift */; };
+		AA205B462871719E008F5605 /* OnboarrdingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA205B452871719E008F5605 /* OnboarrdingView.swift */; };
+		AA8B64CF2875124500793707 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B64CE2875124500793707 /* UserProfileView.swift */; };
+		AA8B64D12875271B00793707 /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B64D02875271B00793707 /* OnboardingViews.swift */; };
+		AA8B64D328753DDC00793707 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B64D228753DDC00793707 /* AccountView.swift */; };
 		BF9773E9D284775F25E819AC /* Pods_Recess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770C18C4652DCEC7EEF75D9F /* Pods_Recess.framework */; };
 		C6295BBF28441EC600739A15 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C6295BBE28441EC600739A15 /* GoogleSignIn */; };
 		C6295BC128441EC600739A15 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C6295BC028441EC600739A15 /* GoogleSignInSwift */; };
@@ -81,6 +86,11 @@
 		770C18C4652DCEC7EEF75D9F /* Pods_Recess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9338814602615B817B4B951E /* Pods-RecessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecessTests.release.xcconfig"; path = "Target Support Files/Pods-RecessTests/Pods-RecessTests.release.xcconfig"; sourceTree = "<group>"; };
 		9DD6DCD40DABE983B2D73EB3 /* EntityInfo-Recess.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EntityInfo-Recess.generated.swift"; sourceTree = "<group>"; };
+		AA205B4328716E56008F5605 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AA205B452871719E008F5605 /* OnboarrdingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboarrdingView.swift; sourceTree = "<group>"; };
+		AA8B64CE2875124500793707 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		AA8B64D02875271B00793707 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
+		AA8B64D228753DDC00793707 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		BED6FC6751614E92F1313DF6 /* Pods_Recess_RecessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recess_RecessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D100160BC929F20AD5DC82 /* Pods-Recess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recess.release.xcconfig"; path = "Target Support Files/Pods-Recess/Pods-Recess.release.xcconfig"; sourceTree = "<group>"; };
 		C6295BC228441FE300739A15 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
@@ -176,6 +186,22 @@
 			path = generated;
 			sourceTree = "<group>";
 		};
+		AA205B4228716E24008F5605 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AA205B4328716E56008F5605 /* OnboardingViewController.swift */,
+				AA205B452871719E008F5605 /* OnboarrdingView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AAA52ED22874D88D00602C9A /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
 		C6A1C92228383DBF001D0BBB = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +244,11 @@
 				C6295BC8284422B900739A15 /* HomeView.swift */,
 				C69B1103284432D800AEEF29 /* ProfCreatorView.swift */,
 				C689BA2B284C35DB00615D63 /* InitialView.swift */,
+				AA8B64D02875271B00793707 /* OnboardingViews.swift */,
+				AA8B64CE2875124500793707 /* UserProfileView.swift */,
+				AA8B64D228753DDC00793707 /* AccountView.swift */,
+				AAA52ED22874D88D00602C9A /* New Group1 */,
+				AA205B4228716E24008F5605 /* New Group */,
 			);
 			path = Recess;
 			sourceTree = "<group>";
@@ -565,13 +596,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C689BA2C284C35DB00615D63 /* InitialView.swift in Sources */,
+				AA8B64D12875271B00793707 /* OnboardingViews.swift in Sources */,
 				C6295BC9284422B900739A15 /* HomeView.swift in Sources */,
 				C6295BC328441FE300739A15 /* AuthenticationViewModel.swift in Sources */,
+				AA8B64D328753DDC00793707 /* AccountView.swift in Sources */,
 				C657521C28417CAD008B86C9 /* UserProfile.swift in Sources */,
 				C6A1C93128383DBF001D0BBB /* ContentView.swift in Sources */,
 				C6A1C92F28383DBF001D0BBB /* RecessApp.swift in Sources */,
 				C657521E28417DEE008B86C9 /* Interests.swift in Sources */,
+				AA205B4428716E56008F5605 /* OnboardingViewController.swift in Sources */,
 				193D6D35DC09C0287B122467 /* EntityInfo-Recess.generated.swift in Sources */,
+				AA8B64CF2875124500793707 /* UserProfileView.swift in Sources */,
+				AA205B462871719E008F5605 /* OnboarrdingView.swift in Sources */,
 				C6295BC72844226200739A15 /* LoginView.swift in Sources */,
 				C69B1104284432D900AEEF29 /* ProfCreatorView.swift in Sources */,
 				C6295BC52844223D00739A15 /* GoogleSignInButton.swift in Sources */,
