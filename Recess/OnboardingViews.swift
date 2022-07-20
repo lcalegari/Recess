@@ -26,7 +26,7 @@ struct OnboardingViews: View {
             Page2()
             Page3()
         }.onTapGesture {
-            viewModel.state = .page2
+            viewModel.state = .signup
         }
     }
 }

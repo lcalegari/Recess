@@ -7,8 +7,12 @@
 
 import SwiftUI
 let cust_pad: CGFloat = 20
+
 struct UserProfileView: View {
     //the card view of profile
+    var name = "Christine"
+    var school = "University of Chicago"
+    var desc = "I’m really passionate about aerospace and flight! I’m currently in the process of getting my pilot license (and no, I can’t give you a free flight)"
     var body: some View {
         VStack {
             //the picture
@@ -18,9 +22,9 @@ struct UserProfileView: View {
             //all text fields
             VStack {
                 Group {
-                    Text("Christine 21").bold().padding(.vertical).font(.title2)
-                    Text("University of Chicago").padding(.bottom).font(.title3)
-                    Text("I’m really passionate about aerospace and flight! I’m currently in the process of getting my pilot license (and no, I can’t give you a free flight)")
+                    Text(name).bold().padding(.vertical).font(.title2)
+                    Text(school).padding(.bottom).font(.title3)
+                    Text(desc)
                         .padding(.bottom, 10)
                 }.frame(maxWidth: .infinity , alignment: .leading)   //formatting for text
             } .padding(.horizontal, cust_pad)

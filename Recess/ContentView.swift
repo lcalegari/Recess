@@ -25,7 +25,7 @@ struct ContentView: View {
             case .initialV: InitialView()
             case .signedIn: HomeView() //HomeView()
             case .signedOut: OnboardingViews()
-            case .page2: LoginView()
+            case .signup: LoginView()
             case .newProf: ProfCreatorView()
         }
     }

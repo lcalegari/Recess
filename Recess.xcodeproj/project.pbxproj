@@ -195,13 +195,6 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
-		AAA52ED22874D88D00602C9A /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group1";
-			sourceTree = "<group>";
-		};
 		C6A1C92228383DBF001D0BBB = {
 			isa = PBXGroup;
 			children = (
@@ -247,7 +240,6 @@
 				AA8B64D02875271B00793707 /* OnboardingViews.swift */,
 				AA8B64CE2875124500793707 /* UserProfileView.swift */,
 				AA8B64D228753DDC00793707 /* AccountView.swift */,
-				AAA52ED22874D88D00602C9A /* New Group1 */,
 				AA205B4228716E24008F5605 /* New Group */,
 			);
 			path = Recess;
