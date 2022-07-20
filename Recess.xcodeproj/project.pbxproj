@@ -178,6 +178,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E51F1C428887ACC005E77DB /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				C689BA2B284C35DB00615D63 /* InitialView.swift */,
+				AA8B64D02875271B00793707 /* OnboardingViews.swift */,
+				C6295BC62844226200739A15 /* LoginView.swift */,
+				C6295BC42844223D00739A15 /* GoogleSignInButton.swift */,
+				C69B1103284432D800AEEF29 /* ProfCreatorView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		5E51F1C528887B6D005E77DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C657521B28417CAD008B86C9 /* UserProfile.swift */,
+				C657521D28417DEE008B86C9 /* Interests.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		6C9F390B85A534F70A8B3B19 /* generated */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,13 +207,13 @@
 			path = generated;
 			sourceTree = "<group>";
 		};
-		AA205B4228716E24008F5605 /* New Group */ = {
+		AA205B4228716E24008F5605 /* Irrelevant */ = {
 			isa = PBXGroup;
 			children = (
 				AA205B4328716E56008F5605 /* OnboardingViewController.swift */,
 				AA205B452871719E008F5605 /* OnboarrdingView.swift */,
 			);
-			path = "New Group";
+			path = Irrelevant;
 			sourceTree = "<group>";
 		};
 		C6A1C92228383DBF001D0BBB = {
@@ -229,18 +250,13 @@
 				C6A1C93028383DBF001D0BBB /* ContentView.swift */,
 				C6A1C93228383DC1001D0BBB /* Assets.xcassets */,
 				C6A1C93428383DC1001D0BBB /* Preview Content */,
-				C657521B28417CAD008B86C9 /* UserProfile.swift */,
-				C657521D28417DEE008B86C9 /* Interests.swift */,
+				5E51F1C528887B6D005E77DB /* Data */,
 				C6295BC228441FE300739A15 /* AuthenticationViewModel.swift */,
-				C6295BC42844223D00739A15 /* GoogleSignInButton.swift */,
-				C6295BC62844226200739A15 /* LoginView.swift */,
+				5E51F1C428887ACC005E77DB /* Onboard */,
 				C6295BC8284422B900739A15 /* HomeView.swift */,
-				C69B1103284432D800AEEF29 /* ProfCreatorView.swift */,
-				C689BA2B284C35DB00615D63 /* InitialView.swift */,
-				AA8B64D02875271B00793707 /* OnboardingViews.swift */,
-				AA8B64CE2875124500793707 /* UserProfileView.swift */,
 				AA8B64D228753DDC00793707 /* AccountView.swift */,
-				AA205B4228716E24008F5605 /* New Group */,
+				AA8B64CE2875124500793707 /* UserProfileView.swift */,
+				AA205B4228716E24008F5605 /* Irrelevant */,
 			);
 			path = Recess;
 			sourceTree = "<group>";
